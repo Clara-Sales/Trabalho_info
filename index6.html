@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+    <link rel="stylesheet" href="index6.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('./style.css/Logo\ agência\ de\ viagens\ minimalista\ azul\ \(1\).png');
+        background-size: 100%;
+    }
+</style>
+<body>
+     <div id="main-container">
+        <h1>Cadastre-se para acessar nosso site</h1>
+        <form id="register-form">
+            <div class="full-box">
+             <label for="email">E-mail</label>
+             <input type="email" name="email" id="email" placeholder="Digite seu E-mail...">
+            </div>
+            <div class="half-box">
+             <label for="name">Nome</label>
+             <input type="text" name="name" id="name" placeholder="Digite se Nome...">
+            </div>
+            <div class="half-box">
+             <label for="name">Sobrenome</label>
+             <input type="text" name="lastname" id="lastname" placeholder="Digite seu Sobrenome...">
+            </div>
+            <div class="half-box spacing">
+             <label for="password">Senha</label>
+             <input type="text" name="password" id="password" placeholder="Digite sua Senha...">
+            </div>
+            <div class="half-box">
+             <label for="passconfirmation">Confirme sua senha</label>
+             <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua Senha...">
+            </div>
+            <div class="full-box">
+             <input type="checkbox" name="agreement" id="agreement" value="Registrar">
+             <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">Termos de uso</a></label>
+            </div>
+               <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registrar">
+               </div>
+        </form>
+     </div>
+   
+</body>
+</html>
