@@ -1,0 +1,282 @@
+/* Css para todo site */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Css do cards de opções */
+#viagens{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .viagens2{
+    display: inline;
+    height: 88%;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+    
+}
+
+.viagens3{
+    width: 50%;
+}
+.txt{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+.cola{
+    display: flex;
+    padding-bottom: 150px;
+}
+.infomação{
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+.infomação h5{
+    color: black;
+    backdrop-filter: blur (5px)
+}
+.infomação p{
+    color: black;
+    backdrop-filter: blur (5px)
+}
+#imginf{
+    width: 195px;
+    height: 180px;}
+
+/* Css da pagina seudestino e cabeçalho */
+nav{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(22, 22, 74);
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: beige;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+#fundo {
+    background-image: url("https://wallpaperaccess.com/full/4695115.jpg");
+    height: 100vh ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+}
+
+.texto .titulo{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.sub_titulo{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 300;
+    backdrop-filter: blur(2px);
+    text-align: center;
+
+}
+#botao1 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 200px;
+    cursor: pointer;
+}
+#botao1:hover{
+    color: #293458;
+    box-shadow: 5px 5px rgb(244, 244, 246), 10px 10px rgb(97, 103, 165), 15px 15px rgb(26, 38, 92);
+} 
+/* Css da pagina sobre */
+#sobre {
+    color: white;
+    background-color: black;
+}
+.row1{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://vocenaneve.com.br/wp-content/uploads/2022/07/st-moritz-nevado.jpg);
+    padding: 0 8%;
+}
+
+/* Viagens */
+
+ #viagens{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .row2{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://vocenaneve.com.br/wp-content/uploads/2022/07/st-moritz-nevado.jpg);
+    padding: 0 8%;
+}
+.col{
+    width: 50%;
+}
+.ttx{
+    color: #ffffff;
+    font-size: 100px;
+}
+#explica{
+    color: white;
+    font-size: 12px;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+.card h5{
+    color: white;
+    backdrop-filter: blur (5px)
+}
+.card p{
+    color: white;
+    backdrop-filter: blur (5px)
+}
+.card1{
+ 
+    background-image: url(https://th.bing.com/th/id/OIP.QmM-ymb2L6U-ohWNY3wA7wAAAA?rs=1&pid=ImgDetMain);
+}
+.card2{
+    background-image: url(https://a0.muscache.com/im/pictures/aa63739a-8416-48ea-ac54-6a6d1c8587ba.jpg?im_w=320);
+}
+.card3{
+    background-image: url(https://th.bing.com/th/id/OIP.0zhIDME2-ve84LeLWpHgmwHaFg?rs=1&pid=ImgDetMain);
+}
+.card4{
+    background-image: url(https://th.bing.com/th/id/OIP.RbD6w_ZdFZ5eNPaqBow3ZQHaE8?rs=1&pid=ImgDetMain);
+}
+/* Css da pagina voos */
+#voos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.conteiner {
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    }
+    
+    h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    #Origem {
+    font-size: 1em;
+    color: #fdfdfd;
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    #destino{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;    
+    }
+    .btn{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin: 10px 15px;
+        box-shadow: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+    .btn:hover {
+    background-color: #779cc4;
+    transition: 0.5s;
+    color: white;
+    
+    }
+    #row3{
+        height: 88%;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://vocenaneve.com.br/wp-content/uploads/2022/07/st-moritz-nevado.jpg);
+        align-items: center;
+        padding: 0 8%;
+    }
